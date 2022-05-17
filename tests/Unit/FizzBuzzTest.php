@@ -20,4 +20,12 @@ class FizzBuzzTest extends TestCase {
         // 実行 & 検証
         $this->assertEquals("2", $fizzbuzz->convert(2));
     }
+
+    public function test_3を”Fizz”へ変換する()
+    {
+        // 準備
+        $fizzbuzz = new FizzBuzz();
+        // 実行 & 検証
+        $this->assertEquals("Fizz", $fizzbuzz->convert(2));
+    }
 }
