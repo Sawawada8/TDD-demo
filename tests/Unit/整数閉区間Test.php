@@ -52,6 +52,8 @@ class 整数閉区間Test extends TestCase {
     {
         return [
             [ true, self::TOP ],
+            [ true, self::BOTTOM ],
+            [ false, self::TOP - 1 ],
             [ false, self::BOTTOM + 1 ],
         ];
     }
