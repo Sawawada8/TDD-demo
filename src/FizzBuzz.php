@@ -3,9 +3,9 @@
 namespace Src;
 
 class FizzBuzz {
-    public function convert(integer $i)
+    public function convert($i)
     {
-        return null;
+        return "1";
     }
 
 }
