@@ -38,4 +38,10 @@ class FizzBuzzTest extends TestCase {
         // 実行 & 検証
         $this->assertEquals("Buzz", $this->fizzbuzz->convert(5));
     }
+
+    public function test_15を”FizzBuzz”へ変換する()
+    {
+        // 実行 & 検証
+        $this->assertEquals("FizzBuzz", $this->fizzbuzz->convert(15));
+    }
 }
