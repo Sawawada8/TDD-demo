@@ -5,6 +5,12 @@ use PHPUnit\Framework\TestCase;
 use  Src\FizzBuzz;
 
 class FizzBuzzTest extends TestCase {
+    // 準備
+    public function setUp(): void
+    {
+        parent::setUp();
+    }
+
     public function test_1を”1”へ変換する()
     {
         // 準備
