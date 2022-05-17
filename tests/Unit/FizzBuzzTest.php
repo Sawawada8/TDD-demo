@@ -26,6 +26,6 @@ class FizzBuzzTest extends TestCase {
         // 準備
         $fizzbuzz = new FizzBuzz();
         // 実行 & 検証
-        $this->assertEquals("Fizz", $fizzbuzz->convert(2));
+        $this->assertEquals("Fizz", $fizzbuzz->convert(3));
     }
 }
