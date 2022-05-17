@@ -17,24 +17,19 @@ class FizzBuzzTest extends TestCase {
 
     public function test_1を”1”へ変換する()
     {
-        // 準備
         // 実行 & 検証
         $this->assertEquals("1", $this->fizzbuzz->convert(1));
     }
 
     public function test_2を”2”へ変換する()
     {
-        // 準備
-        $fizzbuzz = new FizzBuzz();
         // 実行 & 検証
-        $this->assertEquals("2", $fizzbuzz->convert(2));
+        $this->assertEquals("2", $this->fizzbuzz->convert(2));
     }
 
     public function test_3を”Fizz”へ変換する()
     {
-        // 準備
-        $fizzbuzz = new FizzBuzz();
         // 実行 & 検証
-        $this->assertEquals("Fizz", $fizzbuzz->convert(3));
+        $this->assertEquals("Fizz", $this->fizzbuzz->convert(3));
     }
 }
